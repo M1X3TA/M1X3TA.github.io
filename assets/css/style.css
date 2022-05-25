@@ -1,0 +1,183 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+.Height_Adjuster {
+    height:1800px ;
+}
+
+.carousel {
+    width: 100%;
+    height: 1700px;
+    position: relative;
+    display: inline-block;
+    margin-left: 0%;
+    
+
+}
+
+
+
+.carousel > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    display: block;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 5ms;
+    padding: 1rem;
+       
+}
+
+.slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+    position: absolute;
+    border-radius: 5rem;
+    padding: 1rem;
+    transition-delay: 0;
+    
+}
+
+
+
+.slide > img {
+    display: block;
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+    border: 20px cornflowerblue;
+    shape-outside: padding-box;
+    box-shadow: 1px -5px 15px slategray;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: slateblue;
+
+}
+
+.carousel-button {
+    position: relative;
+    bottom: 0%;
+    right: 0%;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    top:0%;
+    z-index: 2;
+    transform: translateY(530%);
+    object-position: center;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    color: indianred;
+    padding: 0rem;
+    background-color: rgba(112, 128, 144, 0.664);
+    border-width: 1px;
+    border-style: groove;
+    box-shadow: 1px -2px 2px slateblue;
+  
+    
+    
+
+  
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+    color: white;
+    background-color: rgba(112, 128, 144, 0.836);
+    border-width: 2px;
+    border-style: groove;
+    box-shadow: 3px -2px 2px blueviolet;
+   
+
+}
+
+.carousel-button:focus {        
+   outline: 1px solid black;
+}
+
+.carousel-button.prev {
+    position: relative;
+    right: 5%;
+    
+    
+    
+}
+
+.carousel-button.next {
+    position: relative;
+    left: 98%;
+}
+
+
+.Sub-header {
+    position: relative;
+    margin-top: 140px;
+    border: 5px solid slateblue;
+    background-color: rgb(90, 84, 134);
+    border-radius: 50px;
+    
+
+}
+
+
+
+
+.Sub-header2 {
+    position: relative;
+    margin-top: 140px;
+    border: 5px solid slateblue;
+    background-color: rgb(90, 84, 134);
+    border-radius: 50px;
+    transform: translateY(-80px);
+    
+
+}
+
+
+
+.Sub-header3 {
+    position: relative;
+    margin-top: 140px;
+    
+   
+
+    transform: translateY(-110%);
+    
+
+}
+
+
+
+
+.Sub-header4 {
+    position: relative;
+    margin-top: 90px;
+    border: 5px solid slateblue;
+    background-color: rgb(90, 84, 134);
+    border-radius: 50px;
+    transform: translateY(-90px);
+    
+
+}
+
+.ParagraphP1 {
+  
+    padding-top: 700px;
+    display: flexbox;
+    position: relative;
+    text-align: center;
+
+
+}
+
+
